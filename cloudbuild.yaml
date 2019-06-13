@@ -7,4 +7,4 @@ args:
   - --trigger-http
   - --source=.
   - --entry-point=f
-  - workplace_chat_handler.py # Function name
+  - workplace_chat_handler # Function name
