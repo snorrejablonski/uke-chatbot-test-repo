@@ -1,8 +1,10 @@
 steps: 
 - name: 'github_snorrejablonski_uke-chatbot-test-repo'
-  args:
+args:
+  - beta
   - functions
   - deploy
-  - [test-func-workplace]
-  - --source=github_snorrejablonski_uke-chatbot-test-repo/workplace_chat_handler.py
   - --trigger-http
+  - --source=.
+  - --entry-point=f
+  - workplace_chat_handler.py # Function name
