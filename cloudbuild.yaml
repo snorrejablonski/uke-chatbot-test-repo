@@ -1,3 +1,8 @@
 steps: 
-- name: 'gcr-io/cloud-builders/git-test'
-  args: ['clone', 'https://github.com/snorrejablonski/uke-chatbot-test-repo']
+- name: 'github_snorrejablonski_uke-chatbot-test-repo'
+  args:
+  - functions
+  - deploy
+  - [test-func-workplace]
+  - --source=.workplace_chat_handler.py
+  - --trigger-http
