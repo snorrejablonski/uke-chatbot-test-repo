@@ -76,7 +76,7 @@ def received_message(event):
         print("Employee ID: ",employee_id)
     else:
         employee_id = '00000000'
-        print("Employee ID missing, set default value: ",employee_id)
+        print("Employee ID missing, set default value:",employee_id)
 
     # Call Boost AI handler function to get intent and response message
     print("Payload for Boost.ai: ", json.dumps(chat_message))
