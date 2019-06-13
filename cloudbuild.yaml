@@ -1,2 +1,2 @@
 steps: 
- - name: 'test'
+ - name: 'hello-world'
