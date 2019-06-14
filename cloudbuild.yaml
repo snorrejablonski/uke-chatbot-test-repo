@@ -1,2 +1,2 @@
 steps: 
-- name: 'gcr.io/cloud-builders/gcloud'
+- name: 'uke-chatbot-test-repo'

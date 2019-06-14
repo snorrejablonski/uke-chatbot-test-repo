@@ -1,0 +1,6 @@
+recources:
+- name: test_function
+  type: cloud_function.py
+  properties:
+  codeLocation: ./workplace_chat_handler.py
+  entryPoint: handler
