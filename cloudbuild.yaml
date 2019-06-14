@@ -1,2 +1,2 @@
 steps: 
-- name: 'hello-world'
+- name: 'gcr.io/cloud-builders/gcloud'
