@@ -1,6 +1,6 @@
 recources:
 - name: test_function
-  type: cloud_function.py
+  type: gcp-types/cloudfunctions-v1:projects.locations.functions
   properties:
   codeLocation: ./workplace_chat_handler.py
   entryPoint: handler
